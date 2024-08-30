@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preload" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/Logo de la mariano.png" alt="Logo de la universidad" class="Logo">
+            <h1>Proyecto Parcial - Aplicación con Java Script</h1>
+            <img src="img/Logo de la mariano.png" alt="Logo de la universidad" class="Logo">
+        </div>
+    </header>
+    <main>
+        <section>
+            <form class="formulario">
+                <fieldset>
+                    <h2>Calculadora de Jubilación</h2><br>
+                        <div class="contenedor-campos">
+        
+                            <div class="campo">
+                                <label for="nombreCompleto">Nombre completo</label>
+                                <input class="input-text" type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Nombre completo">
+                            </div>
+        
+                            <div class="campo">
+                                <label for="fechaNacimiento">Fecha de nacimiento</label>
+                                <input class="input-text" type="date" id="fechaNacimiento" name="fechaNacimiento" placeholder="Fecha de nacimiento">
+                            </div>
+
+                            <div class="campo">
+                                <label for="edada">Edad</label>
+                                <input class="input-text" type="number" id="edada" name="edada" placeholder="Edad">
+                            </div>
+                            
+                            <div class="campo">
+                                <label for="Dpi">DPI</label>
+                                <input class="input-text" type="number" id="Dpi" name="Dpi" placeholder="DPI">
+                            </div>
+
+                            <div class="campo">
+                                <label for="nit">NIT</label>
+                                <input class="input-text" type="number" id="nit" name="nit" placeholder="NIT">
+                            </div>
+
+                            <div class="campo">
+                                <label for="direccion">Dirección</label>
+                                <input class="input-text" type="text" id="direccion" name="direccion" placeholder="Dirección">
+                            </div>
+
+                            <div class="campo">
+                                <label for="aniosLaborados">Cantidad de años laborados</label>
+                                <input class="input-text" type="number" id="aniosLaborados" name="aniosLaborados" placeholder="Años laborados">
+                            </div>
+        
+                            <div class="campo">
+                                <label for="entidadGobierno">Entidad de gobierno</label>
+                                <input class="input-text" type="text" id="entidadGobierno" name="entidadGobierno" placeholder="Entidad de gobierno">
+                            </div>
+                            <br>
+                        </div><!-- datos de la persona -->
+                        <br><h3>Sueldos por Año</h3><br>
+                        <div class="campo">
+                            <label for="salarioAno1">Sueldo año 1</label>
+                            <input class="input-text" type="number" id="salarioAno1" name="salarioAno1" placeholder="0.00">
+                        </div>
+                        <div class="campo">
+                            <label for="salarioAno2">Sueldo año 2</label>
+                            <input class="input-text" type="number" id="salarioAno2" name="salarioAno2" placeholder="0.00">
+                        </div>
+                        <div class="campo">
+                            <label for="salarioAno3">Sueldo año 3</label>
+                            <input class="input-text" type="number" id="salarioAno3" name="salarioAno3" placeholder="0.00">
+                        </div>
+                        <div class="campo">
+                            <label for="salarioAno4">Sueldo año 4</label>
+                            <input class="input-text" type="number" id="salarioAno4" name="salarioAno4" placeholder="0.00">
+                        </div>
+                        <div class="campo">
+                            <label for="salarioAno5">Sueldo año 5</label>
+                            <input class="input-text" type="number" id="salarioAno5" name="salarioAno5" placeholder="0.00">
+                        </div> <!-- Sueldos por año -->
+                        <br>
+                        <br>
+                    <div class="bottonCalcular">
+                        <button type="submit" id="Calcular">Generar Resultado</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados @Cristian Freelancer</p>
+    </footer>
+    <script src="js/Calculo.js"></script>
+</body>
+</html>
